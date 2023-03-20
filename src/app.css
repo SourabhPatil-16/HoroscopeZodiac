@@ -1,0 +1,146 @@
+#app {
+  max-width: 1280px;
+  margin: 2px auto;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+#main {
+  background-image: url('https://i.pinimg.com/originals/dc/10/b4/dc10b417e502480f0dc66602f2bab9a0.gif');
+  background-size: 50%;
+  height: 350px;
+  padding: 0px;
+  border-radius: 1em;
+}
+
+h2 {
+  color: rgb(226, 233, 210);
+}
+h3 {
+  color: #b0f7e5e5;
+}
+.logo {
+  height: 6em;
+  padding: 0em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card1 {
+  padding: 2.4em;
+}
+
+/*Modal Css */
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #ccc;
+  background: rgb(229, 218, 238);
+  overflow: auto;
+  border-radius: 1.1em;
+  outline: none;
+  padding: 18px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+/*End of Modal*/
+
+.read-the-docs {
+  color: #888;
+  padding: 0%;
+}
+
+#input {
+  position: relative;
+  text-align: center;
+  width: 8em;
+}
+
+.zsign {
+  color: white;
+  text-decoration: underline;
+}
+
+.signcolor {
+  background: linear-gradient(
+    to right,
+    #f5e505d3,
+    orange,
+    rgba(241, 184, 24, 0.815),
+    green,
+    rgb(18, 226, 35),
+    hsl(71, 94%, 50%),
+    violet
+  );
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.react-datepicker__header {
+  background-color: #a7f5e4;
+}
+
+.details {
+  justify-content: center;
+}
+
+.footer p {
+  padding: 0px;
+  margin: -2px;
+  color: #888;
+}
+.footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.gotoTop {
+  position: absolute;
+  right: 2.3em;
+  margin-bottom: 1em;
+  margin-top: -1px;
+  border: 0.5px solid transparent;
+}
+
+.gotoTop:focus {
+  outline: none;
+}
+
+.close-btn {
+  /* margin: auto; */
+  margin-left: 45%;
+  margin-top: 0.8em;
+  color: rgb(25, 26, 25);
+  padding: 0.5em;
+  background-color: rgb(162, 247, 105);
+}
